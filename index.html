@@ -29,22 +29,22 @@
 
           <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="nav navbar-nav ml-auto">
-              <li class="nav-item mr-4 active">
+              <li class="nav-item active">
                 <a class="nav-link" href="index.html">Accueil</a>
               </li>
-              <li class="nav-item mr-4">
-                <a class="nav-link" href="News.html">News</a>
+              <li class="nav-item ">
+                <a class="nav-link" href="news.html">News</a>
               </li>
-              <li class="nav-item mr-4">
+              <li class="nav-item ">
                 <a class="nav-link" href="open-air.html">Open-Air</a>
               </li>
-              <li class="nav-item mr-4">
+              <li class="nav-item ">
                 <a class="nav-link" href="vtt.html">VTT</a>
               </li>
-              <li class="nav-item mr-4">
+              <li class="nav-item ">
                 <a class="nav-link" href="sponsor.html">Sponsor</a>
               </li>
-              <li class="nav-item mr-4">
+              <li class="nav-item ">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
@@ -52,23 +52,23 @@
         </nav>
       </section>
     </header>
-    <section class="hero">
-
-      <div class="row row-cols-2">
-        <div class="col">
+    <section class="hero container-fluid">
+      <div class="row row-cols-2 text-center">
+        <div class="col hero-gauche">
           <p class="anne">2020</p>
           <p class="gou">Gougnies</p>
-          <div class="texte text-center">
+          <div class="texte">
             <p>Pour l'édition 2020, nous lançons un 3h adulte en + des 6h.</p>
             <p>RDV le 22 août 2020 à Gougnies</p>
           </div>
         </div>
+        <div class="col hero-droite"></div>
       </div>
     </section>
-    <main class="bg-white p-4">
+    <main class="bg-white">
       <div class="container-sm">
         <section class="sec-agenda p-4">
-          <h3 class="date text-center">22 Août 2020</h3>
+          <h3 class="date text-center display-1 font-weight-bolder">22 Août 2020</h3>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col">
               <img src="img/2h.png" class="img-fluid" alt="2h" />
@@ -78,7 +78,7 @@
                 <li>11h00: Arrivée</li>
                 <li>??h00: Remise de prix</li>
               </ul>
-              <a href="#" class="btn btn-primary btn-sm btn-block">Info</a>
+              <a href="#" class="btn btn-primary btn-sm btn-block"><i class="fas fa-info-circle"></i> Info</a>
             </div>
             <div class="col">
               <img src="img/3h.png" class="img-fluid" alt="3h" />
@@ -88,7 +88,7 @@
                 <li>15h00: Arrivée</li>
                 <li>??h00: Remise de prix</li>
               </ul>
-              <a href="#" class="btn btn-primary btn-sm btn-block">Info</a>
+              <a href="#" class="btn btn-primary btn-sm btn-block"><i class="fas fa-info-circle"></i> Info</a>
             </div>
             <div class="col">
               <img src="img/6h.png" class="img-fluid" alt="6h" />
@@ -98,7 +98,7 @@
                 <li>18h00: Arrivée</li>
                 <li>??h00: Remise de prix</li>
               </ul>
-              <a href="#" class="btn btn-primary btn-sm btn-block">Info</a>
+              <a href="#" class="btn btn-primary btn-sm btn-block"><i class="fas fa-info-circle"></i> Info</a>
             </div>
             <div class="col">
               <img src="img/open-air.png" class="img-fluid" alt="Open-Air" />
@@ -108,12 +108,12 @@
                 <li>23h00: Soon</li>
                 <li>03h00: Fermeture</li>
               </ul>
-              <a href="#" class="btn btn-primary btn-sm btn-block">Info</a>
+              <a href="#" class="btn btn-primary btn-sm btn-block"><i class="fas fa-info-circle"></i> Info</a>
             </div>
           </div>
         </section>
         <section class="sec-sponsor mt-4 p4">
-          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6">
+          <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 pb-5">
             <div class="col">
               <img src="img/sponsor/2h.png" alt="Loto" class="img-fluid" />
             </div>
@@ -153,12 +153,12 @@
       </div>
     </main>
     <footer class="container-sm">
-      <section class="foo-haut row p-4">
-        <div class="col-3">
+      <section class="foo-haut row row-cols-1 row-cols-md-3 p-4">
+        <div class="col-auto col-md-2">
           <img src="img/logo.png" alt="Logo" height="50px" />
         </div>
-        <nav class="col-6">
-          <ul class="nav">
+        <nav class="col-auto col-md-8">
+          <ul class="nav justify-content-center">
             <li class="nav-item">
               <a class="nav-link" href="#">Accueil</a>
             </li>
@@ -173,8 +173,10 @@
             </li>
           </ul>
         </nav>
-        <div class="col-3">
-          <a href="#" class="badge badge-fb">F</a>
+        <div class="col-auto col-md-2">
+          <a href="#" class="badge badge-fb text-center">
+            <i class="fab fa-facebook"></i>
+          </a>
         </div>
       </section>
       <section class="foo-bas p-4">
