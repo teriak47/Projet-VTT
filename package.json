@@ -1,0 +1,14 @@
+{
+  "name": "projet-vtt",
+  "version": "1.0.0",
+  "description": "Version en HTML et CSS du site 6hvttgougnies.be",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
